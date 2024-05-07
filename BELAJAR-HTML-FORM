@@ -1,0 +1,38 @@
+<form>
+    <div>
+     <label for="Email">Email</label>
+       <br>
+             <input type="Email" id="Email" placeholder="example@gmail.com" required/>
+            </div>
+           <div>
+          <label for="Password">Password</label>
+            <br>
+          <input type="Passpord" id="Password" placeholder="*********" required/>
+      </div>
+<button type="Submit">Submit</button>
+</form>
+  
+  
+
+  
+  
+  <form>
+             <div>
+                 <label for="fullName">Name</label>
+                     <input id="fullName" name="fullName" required/>
+                       </div>
+
+                      <div>
+                     <label for=" chekIn">Tanggal Check-In</label>
+                     <input type="date" id="checkIn" name="checkIn" required />
+                 </div>
+    
+                   <div>
+                  <label for="checkOut">Tanggal Chek-Out</label>
+                  <input type="date" id=" checkOut" name="checkOut" required />
+        
+                 </div>
+
+                <button type="Submit">Submit
+        </button>
+    </form>
